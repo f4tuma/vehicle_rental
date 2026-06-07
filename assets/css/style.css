@@ -1,0 +1,62 @@
+/* Custom Global Layout Styles */
+body {
+    background-color: #f4f7f6; /* Subtle soft grey layout background */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dashboard-title {
+    color: #1e293b;
+    letter-spacing: -0.5px;
+}
+
+.subtitle-text {
+    font-size: 1.05rem;
+}
+
+/* Custom Cube Card Design */
+.custom-cube-card {
+    background-color: #ffffff;
+    border-radius: 16px !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-cube-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Rounded Icon Bubble Inside Cube */
+.icon-bubble {
+    background-color: #edf2f7;
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+}
+
+/* Large Counter Typography */
+.metric-number {
+    font-size: 3.5rem;
+    color: #0f172a;
+    line-height: 1;
+}
+
+/* High Contrast Blue Button Styles */
+.custom-blue-btn {
+    background-color: #0d47a1 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+}
+
+.custom-blue-btn:hover {
+    background-color: #0a3785 !important;
+    box-shadow: 0 4px 8px rgba(13, 71, 161, 0.2);
+}
+
+footer {
+    background-color: #1e293b !important;
+    border-top: 1px solid #334155;
+}
